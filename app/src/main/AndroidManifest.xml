@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qualityfull.reactivexandroidbyexamples">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".RxByExamplesApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.home.HomeActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.pagination.infiniteScrolling.PaginationActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.searchbox.SearchBoxActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.validationforms.ValidationFormsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.pagination.menu.PaginationMenuActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.pagination.withPublishSubject.PaginationPublishActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.pagination.withSwitchMap.PaginationSwitchMapActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.pagination.loadMore.PaginationLoadMoreActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.orchestration.menu.OrchestrationMenuActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.orchestration.auth.AuthActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.orchestration.storing.StoringActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ui.orchestration.multipleapi.MultipleApiActivity" android:configChanges="orientation|screenSize"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ReactivexAndroidByExamples</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="load_more">Load More</string>
+
+    <string name="full_name">Full name *</string>
+    <string name="email">Email *</string>
+    <string name="password">Password *</string>
+    <string name="date_birth_label">Date of birth *</string>
+    <string name="date_birth">dd/mm/yyyy</string>
+    <string name="phone_label">Phone number</string>
+    <string name="phone">(999)999-9999</string>
+    <string name="register">Register</string>
+
+    <string name="field_name_required">Field required, minimum %1$d and maximum %2$d</string>
+    <string name="email_required">Example my-email@gmail.com</string>
+    <string name="password_required">At least one digit from 0 to 9, lowercase, uppercase, any @#$% special symbol. At least 6 characters and maximum 20</string>
+    <string name="date_birth_required">Right format is dd/mm/yyyy</string>
+    <string name="phone_required">Right format is (999) 999-9999</string>
+    <string name="text_results">It was found %1$d series</string>
+
+    <string name="text_rating">Rating:</string>
+    <string name="text_status">Status:</string>
+</resources>
